@@ -1,0 +1,19 @@
+.wrapper {
+  @apply w-7/12 relative;
+}
+
+.bg {
+  @apply min-w-full absolute z-0 top-0 left-0 right-0 bottom-0 max-h-screen;
+}
+
+.form {
+  @apply z-10 relative bg-white mt-32 px-10 pt-16 mx-auto w-7/12 my-auto rounded-lg shadow-lg;
+}
+
+.caption {
+  @apply font-bold text-lg text-[#20496C] mb-4;
+}
+
+.text {
+  @apply text-[#859AAB] text-sm text-left mb-8;
+}

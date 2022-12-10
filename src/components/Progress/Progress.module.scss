@@ -1,0 +1,15 @@
+.circle {
+  @apply before:content-[''] before:block before:w-8 before:h-8 before:border-2 before:rounded-full before:absolute before:left-0 before:-top-1;
+}
+
+.stick {
+  @apply after:content-[''] after:block after:h-12 after:w-0 after:border after:absolute after:left-4 after:top-7;
+}
+
+.text {
+  @apply text-base pl-10 text-[#5D7FA3];
+}
+
+.selected {
+  @apply before:border-blue-400 text-white;
+}
